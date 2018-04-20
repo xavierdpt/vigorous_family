@@ -21,10 +21,10 @@
 							<groupId>com.github.xavierdpt</groupId>
 							<artifactId>vigourous-family-war</artifactId>
 						</webModule>
-						<jarModule>
+						<rarModule>
 							<groupId>org.apache.activemq</groupId>
-							<artifactId>activemq-ra</artifactId>
-						</jarModule>
+							<artifactId>activemq-rar</artifactId>
+						</rarModule>
 					</modules>
 				</configuration>
 			</plugin>
@@ -39,8 +39,10 @@
 		</dependency>
 		<dependency>
 			<groupId>org.apache.activemq</groupId>
-			<artifactId>activemq-ra</artifactId>
+			<artifactId>activemq-rar</artifactId>
 			<version>5.15.3</version>
+			<type>rar</type>
 		</dependency>
+
 	</dependencies>
 </project>
